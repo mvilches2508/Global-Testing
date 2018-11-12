@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="101196" started-at="2018-11-12T20:02:16Z" finished-at="2018-11-12T20:03:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="101196" started-at="2018-11-12T20:02:16Z" finished-at="2018-11-12T20:03:57Z">
+      <class name="cartera.TC_Cartera_Recaudacion_ExportarExcel">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cartera.TC_Cartera_Recaudacion_ExportarExcel@7ca48474]" name="setUp" is-config="true" duration-ms="2193" started-at="2018-11-12T17:02:16Z" finished-at="2018-11-12T17:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTCCarteraRecaudacionExportarExcel()[pri:0, instance:cartera.TC_Cartera_Recaudacion_ExportarExcel@7ca48474]" name="testTCCarteraRecaudacionExportarExcel" duration-ms="88862" started-at="2018-11-12T17:02:18Z" finished-at="2018-11-12T17:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTCCarteraRecaudacionExportarExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cartera.TC_Cartera_Recaudacion_ExportarExcel@7ca48474]" name="tearDown" is-config="true" duration-ms="10109" started-at="2018-11-12T17:03:47Z" finished-at="2018-11-12T17:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cartera.TC_Cartera_Recaudacion_ExportarExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
