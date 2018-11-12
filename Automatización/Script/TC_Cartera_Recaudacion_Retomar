@@ -50,6 +50,7 @@ public class TCCarteraRecaudacionRetomar {
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
+    driver.findElement(By.id("IMAGE2_MPAGE")).click();
   }
 
   @AfterClass(alwaysRun = true)
