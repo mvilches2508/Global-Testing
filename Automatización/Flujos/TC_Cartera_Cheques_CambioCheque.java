@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class TCCarteraChequesCambioCheque {
+public class TCCarteraChequesCambiarUbicacion {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -22,7 +22,7 @@ public class TCCarteraChequesCambioCheque {
   }
 
   @Test
-  public void testTCCarteraChequesCambioCheque() throws Exception {
+  public void testTCCarteraChequesCambiarUbicacion() throws Exception {
     driver.get(baseUrl + "/carteragx15/seclogin.aspx");
     driver.findElement(By.id("vUSUARIONOMBRE")).clear();
     driver.findElement(By.id("vUSUARIONOMBRE")).sendKeys("mvalles");
@@ -32,15 +32,16 @@ public class TCCarteraChequesCambioCheque {
     driver.findElement(By.xpath("//tr[6]/td/table/tbody/tr/td[2]/p/span/a")).click();
     new Select(driver.findElement(By.id("vDYNAMICFILTERSSELECTOR1"))).selectByVisibleText("Estado");
     new Select(driver.findElement(By.id("vCHEQUEESTADO1"))).selectByVisibleText("EN CARTERA");
-    driver.findElement(By.id("vSELECTED_0001")).click();
-    driver.findElement(By.id("NUEVAUBICACION")).click();
-    new Select(driver.findElement(By.id("vUBICACIONID"))).selectByVisibleText("Santander");
-    driver.findElement(By.id("BTNENTER")).click();
-    try {
-      assertEquals(driver.findElement(By.id("span_UBICACIONID_0001")).getText(), "Santander");
-    } catch (Error e) {
-      verificationErrors.append(e.toString());
-    }
+    driver.findElement(By.id("vCAMBIAR_0001")).click();
+    String monto = driver.findElement(By.id("span_vCHEQUEMONTO")).getText();
+    new Select(driver.findElement(By.id("vFORMADEPAGOID"))).selectByVisibleText("Efectivo");
+    driver.findElement(By.id("vRECCAMBIOFORMADEPAGOMONTO")).clear();
+    driver.findElement(By.id("vRECCAMBIOFORMADEPAGOMONTO")).sendKeys("4154000");
+    driver.findElement(By.id("AGREGAR")).click();
+    driver.findElement(By.id("BTNCONFIRMAR")).click();
+    boolean confirmacion = isElementPresent(By.xpath("//div/div/div/div[2]"));
+    driver.findElement(By.id("DVELOP_CONFIRMPANEL_BTNCONFIRMARContainer_SaveButton")).click();
+    boolean cheque = isElementPresent(By.id("CHEQUETITLE"));
     driver.findElement(By.id("IMAGE2_MPAGE")).click();
   }
 
