@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class TCCarteraChequesDepositar {
+public class TCCarteraCreditosLeasingIVencido {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -22,25 +22,30 @@ public class TCCarteraChequesDepositar {
   }
 
   @Test
-  public void testTCCarteraChequesDepositar() throws Exception {
-    driver.get(baseUrl + "/carteragx15/seclogin.aspx");
+  public void testTCCarteraCreditosLeasingIVencido() throws Exception {
+    driver.get(baseUrl + "/carteratest/seclogin.aspx");
     driver.findElement(By.id("vUSUARIONOMBRE")).clear();
     driver.findElement(By.id("vUSUARIONOMBRE")).sendKeys("mvalles");
     driver.findElement(By.id("vUSUARIOPASSWORD")).clear();
-    driver.findElement(By.id("vUSUARIOPASSWORD")).sendKeys("Mvll18.");
-    driver.findElement(By.id("BTNENTER")).click();
-    driver.findElement(By.xpath("//tr[6]/td/table/tbody/tr/td[2]/p/span/a")).click();
-    new Select(driver.findElement(By.id("vDYNAMICFILTERSSELECTOR1"))).selectByVisibleText("Estado");
-    new Select(driver.findElement(By.id("vCHEQUEESTADO1"))).selectByVisibleText("EN CARTERA");
-    driver.findElement(By.id("vSELECTED_0001")).click();
-    driver.findElement(By.id("DEPOSITAR")).click();
-    boolean depositar = isElementPresent(By.xpath("//td"));
-    driver.findElement(By.id("vCHEQUEFECHADEPOSITO")).clear();
-    driver.findElement(By.id("vCHEQUEFECHADEPOSITO")).sendKeys("14/11/18");
-    driver.findElement(By.id("vCHEQUENROCOMPROBANTE")).clear();
-    driver.findElement(By.id("vCHEQUENROCOMPROBANTE")).sendKeys("14112018");
-    driver.findElement(By.id("BTNENTER")).click();
-    boolean chequeDepositado = isElementPresent(By.id("DEPOSITAR"));
+    driver.findElement(By.id("vUSUARIOPASSWORD")).sendKeys("Evo3.");
+    driver.findElement(By.name("BTNENTER")).click();
+    driver.findElement(By.xpath("//span/a")).click();
+    driver.findElement(By.id("ADDDYNAMICFILTERS1")).click();
+    new Select(driver.findElement(By.id("vDYNAMICFILTERSSELECTOR1"))).selectByVisibleText("Tipo Crédito");
+    new Select(driver.findElement(By.id("vSOLICITUDTIPOCREDITO1"))).selectByVisibleText("LEASING");
+    new Select(driver.findElement(By.id("vDYNAMICFILTERSSELECTOR2"))).selectByVisibleText("Estado Pago");
+    new Select(driver.findElement(By.id("vCREESTADOPAGO2"))).selectByVisibleText("VENCIDO");
+    driver.findElement(By.id("vEDITARCONVENIDO_0001")).click();
+    String monto1 = driver.findElement(By.id("span_SDTCONVENIDO__DETCRETOTALSALDOS_0004")).getText();
+    driver.findElement(By.id("SDTCONVENIDO__DETCRECUO_0004")).clear();
+    driver.findElement(By.id("SDTCONVENIDO__DETCRECUO_0004")).sendKeys("859889");
+    driver.findElement(By.id("SDTCONVENIDO__DETCREPAGTOT_0004")).clear();
+    driver.findElement(By.id("SDTCONVENIDO__DETCREPAGTOT_0004")).sendKeys("859889");
+    String op = driver.findElement(By.id("span_vCRENROOPE")).getText();
+    driver.findElement(By.name("BTNCONFIRMAR")).click();
+    driver.findElement(By.id("vEDITARCONVENIDO_0001")).click();
+    String monto2 = driver.findElement(By.id("span_SDTCONVENIDO__DETCRETOTALSALDOS_0004")).getText();
+    driver.findElement(By.id("IMAGE2_MPAGE")).click();
   }
 
   @AfterClass(alwaysRun = true)
@@ -84,7 +89,4 @@ public class TCCarteraChequesDepositar {
       acceptNextAlert = true;
     }
   }
-  
-  		java.util.logging.Logger.getLogger("com.gargoylesoftware.htmlunit").setLevel(java.util.logging.Level.OFF);
-		java.util.logging.Logger.getLogger("org.apache.http").setLevel(java.util.logging.Level.OFF);
 }
