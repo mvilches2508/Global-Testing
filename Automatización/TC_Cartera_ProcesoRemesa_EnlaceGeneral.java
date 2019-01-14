@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class TCCarteraProcesoRemesaAgregarGeneral {
+public class TCCarteraProcesoRemesaEnlaceGeneral {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -22,36 +22,18 @@ public class TCCarteraProcesoRemesaAgregarGeneral {
   }
 
   @Test
-  public void testTCCarteraProcesoRemesaAgregarGeneral() throws Exception {
-    driver.get(baseUrl + "/carteratest/seclogin.aspx");
+  public void testTCCarteraProcesoRemesaEnlaceGeneral() throws Exception {
+    driver.get(baseUrl + "/carteragx16/seclogin.aspx");
     driver.findElement(By.id("vUSUARIONOMBRE")).clear();
-    driver.findElement(By.id("vUSUARIONOMBRE")).sendKeys("mvalles");
+    driver.findElement(By.id("vUSUARIONOMBRE")).sendKeys("Administrador");
     driver.findElement(By.id("vUSUARIOPASSWORD")).clear();
-    driver.findElement(By.id("vUSUARIOPASSWORD")).sendKeys("Evo3.");
-    driver.findElement(By.name("BTNENTER")).click();
-    try {
-      assertEquals(driver.findElement(By.xpath("//li[10]/a/span")).getText(), "Procesos");
-    } catch (Error e) {
-      verificationErrors.append(e.toString());
-    }
+    driver.findElement(By.id("vUSUARIOPASSWORD")).sendKeys("itfactory2014");
+    driver.findElement(By.id("BTNENTER")).click();
+    driver.findElement(By.xpath("//li[10]/a/span")).click();
     driver.findElement(By.xpath("//div[11]/a[8]")).click();
-    driver.findElement(By.id("IMGINSERTREMESA")).click();
-    driver.findElement(By.id("vREMESAFECHACORTE")).clear();
-    driver.findElement(By.id("vREMESAFECHACORTE")).sendKeys("26122018");
-    driver.findElement(By.id("vREMESAOBSERVACION")).clear();
-    driver.findElement(By.id("vREMESAOBSERVACION")).sendKeys("Remesa");
-    driver.findElement(By.name("BTNENTER")).click();
-    // ERROR: Caught exception [ERROR: Unsupported command [waitForPopUp |  | 30000]]
-    boolean remesaGenerada = isElementPresent(By.xpath("//span/div"));
-    driver.findElement(By.name("BTNCANCELAR")).click();
-    driver.findElement(By.xpath("//td[4]/span/a")).click();
-    driver.findElement(By.xpath("//td[2]/table/tbody/tr/td/span/a")).click();
-    driver.findElement(By.id("W0016W0037EXPORT")).click();
-    try {
-      assertEquals(driver.findElement(By.id("vIMGPDF_0001")).getText(), "");
-    } catch (Error e) {
-      verificationErrors.append(e.toString());
-    }
+    driver.findElement(By.id("vIMGPDF_0002")).click();
+    driver.findElement(By.xpath("//tr[2]/td[4]/span/a")).click();
+    boolean remesa = isElementPresent(By.id("VIEWTITLE"));
     driver.findElement(By.id("IMAGE2_MPAGE")).click();
   }
 
@@ -97,13 +79,3 @@ public class TCCarteraProcesoRemesaAgregarGeneral {
     }
   }
 }
-
-robot.mousePress(InputEvent.BUTTON1_MASK);
-robot.mouseRelease(InputEvent.BUTTON1_MASK);
-
-gxp0_ifrm
-
-builder.moveToElement(elemento).perform();
-elemento.click();
-
-vREMESAFECHACORTE
