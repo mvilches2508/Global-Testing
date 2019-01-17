@@ -97,3 +97,13 @@ public class TCCarteraProcesoRemesaAgregarGeneral {
     }
   }
 }
+
+robot.mousePress(InputEvent.BUTTON1_MASK);
+robot.mouseRelease(InputEvent.BUTTON1_MASK);
+
+gxp0_ifrm
+
+builder.moveToElement(elemento).perform();
+elemento.click();
+
+vREMESAFECHACORTE
