@@ -1,0 +1,187 @@
+629
+
+170159065
+
+
+
+149914 914211684 1-9
+
+
+
+180229625
+
+
+
+
+914211826
+
+
+914211827
+
+
+914211828
+
+
+14109473
+
+
+
+
+1004 camión
+
+1006 furgon
+
+1001 camioneta
+
+
+
+914214201
+914214202
+914214203
+
+
+
+
+917642638
+917642639
+917642640
+
+
+
+
+
+610565
+
+
+149992
+
+
+
+
+
+SANTIAGO - PROVIDENCIA, FIDEL OTEIZA NO. 1916 OFICINA 301, Teléfonos 4410530, Contacto JAVIER ROMO BULO (javier.romo@koe.la)
+
+
+
+
+
+
+
+
+562 2488 0800 / 562 2488 0822
+
+propiedades@macal.cl
+
+
+
+
+
+ChromeOptions options = new ChromeOptions();
+                options.addArguments("--test-type");
+                options.addArguments("--headless");
+                options.addArguments("--disable-extensions"); //to disable browser extension popup
+
+                ChromeDriverService driverService = ChromeDriverService.createDefaultService();
+                ChromeDriver driver = new ChromeDriver(driverService, options);
+
+                Map<String, Object> commandParams = new HashMap<>();
+                commandParams.put("cmd", "Page.setDownloadBehavior");
+                Map<String, String> params = new HashMap<>();
+                params.put("behavior", "allow");
+                params.put("downloadPath", "//home//vaibhav//Desktop");
+                commandParams.put("params", params);
+                ObjectMapper objectMapper = new ObjectMapper();
+                HttpClient httpClient = HttpClientBuilder.create().build();
+                String command = objectMapper.writeValueAsString(commandParams);
+                String u = driverService.getUrl().toString() + "/session/" + driver.getSessionId() + "/chromium/send_command";
+                HttpPost request = new HttpPost(u);
+                request.addHeader("content-type", "application/json");
+                request.setEntity(new StringEntity(command));
+                httpClient.execute(request);
+				
+				
+				
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+Manuel,
+
+Efectivamente, falta eso si:
+- La consulta de los asientos contables generados en la alta de crédito
+- Data Cliente
+
+
+Lo demás esta excelente.
+
+Saludos
+
+El vie., 18 ene. 2019 a las 15:22, Manuel Valles (<mvalles@inovabiz.com>) escribió:
+Andrés,
+ 
+Según lo conversado, las funcionalidades para ser automatizadas son:
+ 
+•	PAC: 
+•	Cargar Rendición
+•	Generar Nómina de cargo
+•	Generar Nómina de Reintento
+•	Reporte Rendición
+•	Subir Universo
+ 
+•	PAT: 
+•	Cargar Rendición
+•	Generar Nómina de cargo
+•	Generar Nómina de Reintento
+•	Reporte Rendición
+•	Subir Universo
+ 
+•	Procesos: 
+•	Centralización Recaudaciones (se considera solamente exportar archivo Excel) 656 - 659
+•	Liquidación seguro cesantía 668 -670
+•	Liquidación seguro desgravamen 674 -675
+•	Generar archivo SBIF D92 680 - 682
+•	Generar archivo SBIF D93 683 - 685
+ 
+•	Bienvenida
+ 
+•	Procesos Financieros: 
+•	Todos
+•	Alzamiento Leasing  82, 83  84-86 (SQL)
+•	Forzar Alzamiento  87, 88, 89, 91 (SQL)
+•	Cambio de Prenda/Mera-Tenencia
+•	Forzar Prenda/Mera-Tenencia
+•	Prenda/Mera-Tenencia Retenido
+•	Prefacturación
+•	Prendas AFIANZA
+ 
+•	TMC: 
+•	Funcionalidad procesar créditos
+ 
+•	Pagarés a Judicial: 
+•	Generar Nóminas
+•	Administración de Nóminas a Judicial
+•	Recepción de Pagarés   
+ 
+Quedo atento a tus comentarios,
+ 
+Saludos.
+
+107
