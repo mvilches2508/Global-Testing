@@ -163,7 +163,7 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Bienvenida
  
 •	Procesos Financieros: 
-•	Todos
+•	Todos 76 y 81,
 •	Alzamiento Leasing  82, 83  84-86 (SQL)
 •	Forzar Alzamiento  87, 88, 89, 91 (SQL)
 •	Cambio de Prenda/Mera-Tenencia
@@ -185,3 +185,8 @@ Quedo atento a tus comentarios,
 Saludos.
 
 107
+
+
+GX 16 54.235.81.157/carteragx16/seclogin.aspx
+
+Evo 3 54.235.81.157/carteratest/seclogin.aspx
