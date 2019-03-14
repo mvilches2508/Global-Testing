@@ -163,7 +163,7 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Bienvenida
  
 •	Procesos Financieros: 
-•	Todos 76 y 81, 77, 78
+•	Todos 76 y 81, 77, 78, 79
 •	Alzamiento Leasing  82, 83  84-86 (SQL)
 •	Forzar Alzamiento  87, 88, 89, 91 (SQL)
 •	Cambio de Prenda/Mera-Tenencia
@@ -184,7 +184,7 @@ Quedo atento a tus comentarios,
  
 Saludos.
 
-111
+112
 
 
 GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm
