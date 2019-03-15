@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<ITablasDeDesarrollo RUTAdministradorPrimario="76120857-8" IdDeEnvio="3061" NombreDeInterfaz="" FechaDeArchivo="07-03-2019" Cantidad="1" xmlns="http://clientes.afianza.cl/schema/SAMCDA/v1_0_0">
+	<contrato NumeroOperacion="180223148">
+		<cuota FechaVencimiento="05-06-2018" NumeroCuota="1" SaldoVigenteCLP="2360288" DiasDeInteres="0" InteresCLP="55939" AmortizacionCLP="74143" MontoCLP="130082" SaldoFinalCLP="2286145" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-07-2018" NumeroCuota="2" SaldoVigenteCLP="2286145" DiasDeInteres="0" InteresCLP="54182" AmortizacionCLP="75900" MontoCLP="130082" SaldoFinalCLP="2210245" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-08-2018" NumeroCuota="3" SaldoVigenteCLP="2210245" DiasDeInteres="0" InteresCLP="52383" AmortizacionCLP="77699" MontoCLP="130082" SaldoFinalCLP="2132546" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-09-2018" NumeroCuota="4" SaldoVigenteCLP="2132546" DiasDeInteres="0" InteresCLP="50541" AmortizacionCLP="79541" MontoCLP="130082" SaldoFinalCLP="2053005" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-10-2018" NumeroCuota="5" SaldoVigenteCLP="2053005" DiasDeInteres="0" InteresCLP="48656" AmortizacionCLP="81426" MontoCLP="130082" SaldoFinalCLP="1971579" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-11-2018" NumeroCuota="6" SaldoVigenteCLP="1971579" DiasDeInteres="0" InteresCLP="46726" AmortizacionCLP="83356" MontoCLP="130082" SaldoFinalCLP="1888223" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-12-2018" NumeroCuota="7" SaldoVigenteCLP="1888223" DiasDeInteres="0" InteresCLP="44751" AmortizacionCLP="85331" MontoCLP="130082" SaldoFinalCLP="1802892" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-01-2019" NumeroCuota="8" SaldoVigenteCLP="1802892" DiasDeInteres="0" InteresCLP="42729" AmortizacionCLP="87353" MontoCLP="130082" SaldoFinalCLP="1715539" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-02-2019" NumeroCuota="9" SaldoVigenteCLP="1715539" DiasDeInteres="0" InteresCLP="40658" AmortizacionCLP="89424" MontoCLP="130082" SaldoFinalCLP="1626115" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-03-2019" NumeroCuota="10" SaldoVigenteCLP="1626115" DiasDeInteres="0" InteresCLP="38539" AmortizacionCLP="91543" MontoCLP="130082" SaldoFinalCLP="1534572" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-04-2019" NumeroCuota="11" SaldoVigenteCLP="1534572" DiasDeInteres="0" InteresCLP="36369" AmortizacionCLP="93713" MontoCLP="130082" SaldoFinalCLP="1440859" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-05-2019" NumeroCuota="12" SaldoVigenteCLP="1440859" DiasDeInteres="0" InteresCLP="34148" AmortizacionCLP="95934" MontoCLP="130082" SaldoFinalCLP="1344925" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-06-2019" NumeroCuota="13" SaldoVigenteCLP="1344925" DiasDeInteres="0" InteresCLP="31875" AmortizacionCLP="98207" MontoCLP="130082" SaldoFinalCLP="1246718" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-07-2019" NumeroCuota="14" SaldoVigenteCLP="1246718" DiasDeInteres="0" InteresCLP="29547" AmortizacionCLP="100535" MontoCLP="130082" SaldoFinalCLP="1146183" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-08-2019" NumeroCuota="15" SaldoVigenteCLP="1146183" DiasDeInteres="0" InteresCLP="27165" AmortizacionCLP="102917" MontoCLP="130082" SaldoFinalCLP="1043266" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-09-2019" NumeroCuota="16" SaldoVigenteCLP="1043266" DiasDeInteres="0" InteresCLP="24725" AmortizacionCLP="105357" MontoCLP="130082" SaldoFinalCLP="937909" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-10-2019" NumeroCuota="17" SaldoVigenteCLP="937909" DiasDeInteres="0" InteresCLP="22228" AmortizacionCLP="107854" MontoCLP="130082" SaldoFinalCLP="830055" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-11-2019" NumeroCuota="18" SaldoVigenteCLP="830055" DiasDeInteres="0" InteresCLP="19672" AmortizacionCLP="110410" MontoCLP="130082" SaldoFinalCLP="719645" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-12-2019" NumeroCuota="19" SaldoVigenteCLP="719645" DiasDeInteres="0" InteresCLP="17056" AmortizacionCLP="113026" MontoCLP="130082" SaldoFinalCLP="606619" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-01-2020" NumeroCuota="20" SaldoVigenteCLP="606619" DiasDeInteres="0" InteresCLP="14377" AmortizacionCLP="115705" MontoCLP="130082" SaldoFinalCLP="490914" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-02-2020" NumeroCuota="21" SaldoVigenteCLP="490914" DiasDeInteres="0" InteresCLP="11635" AmortizacionCLP="118447" MontoCLP="130082" SaldoFinalCLP="372467" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-03-2020" NumeroCuota="22" SaldoVigenteCLP="372467" DiasDeInteres="0" InteresCLP="8827" AmortizacionCLP="121255" MontoCLP="130082" SaldoFinalCLP="251212" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-04-2020" NumeroCuota="23" SaldoVigenteCLP="251212" DiasDeInteres="0" InteresCLP="5954" AmortizacionCLP="124128" MontoCLP="130082" SaldoFinalCLP="127084" SaldoDeudaCLP="0" />
+		<cuota FechaVencimiento="05-05-2020" NumeroCuota="24" SaldoVigenteCLP="127084" DiasDeInteres="0" InteresCLP="3012" AmortizacionCLP="127084" MontoCLP="130096" SaldoFinalCLP="0" SaldoDeudaCLP="0" />
+	</contrato>
+</ITablasDeDesarrollo>
