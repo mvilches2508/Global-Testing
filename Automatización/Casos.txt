@@ -178,7 +178,10 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Pagarés a Judicial: 
 •	Generar Nóminas
 •	Administración de Nóminas a Judicial
-•	Recepción de Pagarés   
+•	Recepción de Pagarés
+
+- La consulta de los asientos contables generados en la alta de crédito
+- Data Cliente
  
 Quedo atento a tus comentarios,
  
