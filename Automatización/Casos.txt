@@ -170,7 +170,7 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Forzar Prenda/Mera-Tenencia
 •	Prenda/Mera-Tenencia Retenido
 •	Prefacturación
-•	Prendas AFIANZA
+•	Prendas AFIANZA 105 - 107
  
 •	TMC: 
 •	Funcionalidad procesar créditos
@@ -184,7 +184,7 @@ Quedo atento a tus comentarios,
  
 Saludos.
 
-117
+120
 
 
 GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm
