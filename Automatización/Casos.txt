@@ -167,8 +167,8 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Alzamiento Leasing  82, 83  84-86 (SQL)
 •	Forzar Alzamiento  87, 88, 89, 91 (SQL)
 •	Cambio de Prenda/Mera-Tenencia 92 -95 SQL
-•	Forzar Prenda/Mera-Tenencia 96 y 99
-•	Prenda/Mera-Tenencia Retenido
+•	Forzar Prenda/Mera-Tenencia 96 y 99 SQL
+•	Prenda/Mera-Tenencia Retenido SQL
 •	Prefacturación
 •	Prendas AFIANZA 105 - 107
  
