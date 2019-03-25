@@ -167,7 +167,7 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Alzamiento Leasing  82, 83  84-86 (SQL)
 •	Forzar Alzamiento  87, 88, 89, 91 (SQL)
 •	Cambio de Prenda/Mera-Tenencia 92 -95 SQL
-•	Forzar Prenda/Mera-Tenencia 96 y 99 SQL
+•	Forzar Prenda/Mera-Tenencia 96 y 99 SQL 97 y 98
 •	Prenda/Mera-Tenencia Retenido SQL
 •	Prefacturación
 •	Prendas AFIANZA 105 - 107
@@ -187,7 +187,7 @@ Quedo atento a tus comentarios,
  
 Saludos.
 
-122
+124
 
 
 GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm
