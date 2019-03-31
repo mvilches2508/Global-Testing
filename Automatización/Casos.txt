@@ -176,7 +176,7 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Funcionalidad procesar créditos 137
  
 •	Pagarés a Judicial: 
-•	Generar Nóminas
+•	Generar Nóminas 587 y 588
 •	Administración de Nóminas a Judicial
 •	Recepción de Pagarés
 
@@ -187,7 +187,7 @@ Quedo atento a tus comentarios,
  
 Saludos.
 
-128
+130
 
 
 GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm
