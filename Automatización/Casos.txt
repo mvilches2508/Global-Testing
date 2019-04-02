@@ -168,15 +168,15 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
 •	Forzar Alzamiento  87, 88, 89, 91 (SQL)
 •	Cambio de Prenda/Mera-Tenencia 92 -95 SQL
 •	Forzar Prenda/Mera-Tenencia 96 y 99 SQL 97 y 98
-•	Prenda/Mera-Tenencia Retenido SQL
+•	Prenda/Mera-Tenencia Retenido SQL 100 - 102
 •	Prefacturación
 •	Prendas AFIANZA 105 - 107
  
 •	TMC: 
-•	Funcionalidad procesar créditos
+•	Funcionalidad procesar créditos 137
  
 •	Pagarés a Judicial: 
-•	Generar Nóminas
+•	Generar Nóminas 587 y 588, 591 y 592. 593 (incluir pagare)
 •	Administración de Nóminas a Judicial
 •	Recepción de Pagarés
 
@@ -187,9 +187,9 @@ Quedo atento a tus comentarios,
  
 Saludos.
 
-124
+133
 
 
 GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm
 
-Evo 3 54.235.81.157/carteratest/seclogin.aspx
+Test3. 54.235.81.157/carteratest/seclogin.aspx
