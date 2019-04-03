@@ -177,7 +177,7 @@ Según lo conversado, las funcionalidades para ser automatizadas son:
  
 •	Pagarés a Judicial: 
 •	Generar Nóminas 587 y 588, 591 y 592. 593 (incluir pagare)
-•	Administración de Nóminas a Judicial
+•	Administración de Nóminas a Judicial 596 y 597, 
 •	Recepción de Pagarés
 
 - La consulta de los asientos contables generados en la alta de crédito
@@ -187,9 +187,9 @@ Quedo atento a tus comentarios,
  
 Saludos.
 
-133
+135
 
 
-GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm
+GX 16 54.235.81.157/carteragx16/seclogin.aspx gxp0_ifrm  gxp1_ifrm
 
 Test3. 54.235.81.157/carteratest/seclogin.aspx
